@@ -1,0 +1,3 @@
+[submodule "obstacleworld"]
+	path = obstacleworld
+	url = https://github.com/lorenzohess/RBE-550-motion-planning-obstacleworld.git
