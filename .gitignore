@@ -1,0 +1,24 @@
+# Environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+
+**/*.auctex-auto
+**/*.aux
+**/*.bbl*
+**/*.bcf*
+**/*.blg
+**/*.fdb_latexmk
+**/*.fls
+**/*.lof
+**/*.log
+**/*.lot
+**/*.out
+**/*.run.xml
+**/*.toc
+**/*.xdv
+**/_minted*

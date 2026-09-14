@@ -1,0 +1,11 @@
+# Python 3.10 or newer (the code uses PEP 604 "int | None" annotations, which are
+# evaluated at import time). Developed and tested on 3.14.2.
+#
+# Lower bounds are what the code needs; the comment is what it was tested against.
+numpy>=1.24          # tested 2.5.3
+matplotlib>=3.7      # tested 3.11.2  -- figures only, not the simulation
+pygame>=2.5          # tested 2.6.1   -- live view and recording only
+pytest>=7.0          # tested 9.1.1   -- test suite only
+
+# ffmpeg is optional and is not a Python package. Without it, --record is
+# unavailable and the two recorder tests skip themselves.
